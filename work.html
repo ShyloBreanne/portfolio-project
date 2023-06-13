@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Explore Breanne's impressive portfolio showcasing her outstanding front-end engineering projects. Get inspired by her work in CSS, HTML, and JavaScript."
+    />
+    <title>
+      Breanne's Work | Front-end Engineering Projects | CSS, HTML, JavaScript
+    </title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -31,35 +37,116 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between-md">
+        <a href="/" title="Homepage"
+          ><img src="images/logo.png" class="logo" alt="Breanne Logo"
+        /></a>
+        <ul>
+          <li><a href="/" title="Homepage"> Home</a></li>
+          <li>
+            <a href="/about.html" title="About Breanne"> About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Breanne's Work"> Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Breanne"> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-4">Take a look at what I've been working on!</h1>
         <div class="row">
           <div class="col-md-6 mb-5">
-            <img src="images/baking.png" class="img-fluid rounded" alt="" />
+            <img
+              src="images/baking.png"
+              class="img-fluid rounded"
+              alt="Baking project preview"
+            />
             <h3 class="text-center">Baking Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
           <div class="col-md-6 mb-5">
-            <img src="images/landing-page.png" class="img-fluid rounded" alt="" />
+            <img
+              src="images/landing-page.png"
+              class="img-fluid rounded"
+              alt="Landing Page preview"
+            />
             <h3 class="text-center">Landing Page Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
           <div class="col-md-6 mb-5">
-            <img src="images/weather.png" class="img-fluid rounded" alt="" />
+            <img
+              src="images/weather.png"
+              class="img-fluid rounded"
+              alt="Weather App preview"
+            />
             <h3 class="text-center">Weather App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS and Javascript
             </p>
-            </div>
-            <div class="col-md-6 mb-5">
-              <img src="images/clock.png" class="img-fluid rounded" alt="" />
-              <h3 class="text-center">World Clock</h3>
-              <p class="text-center text-muted">Built with HTML and CSS</p>
-            </div>
+          </div>
+          <div class="col-md-6 mb-5">
+            <img
+              src="images/clock.png"
+              class="img-fluid rounded"
+              alt="World Clock preview"
+            />
+            <h3 class="text-center">World Clock</h3>
+            <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box d-flex justify-content-between mb-5">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:sblyall@gmail.com"
+            class="email-link"
+            title="Email Breanne"
+            >sblyall@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/bre.codes/"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/ShyloBreanne"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/breannelyall/"
+            target="_blank"
+            title="LinkedIn Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Breanne, and it is
+          <a
+            href="https://github.com/ShyloBreanne/portfolio-project"
+            target="_blank"
+            title="GitHub Portfolio Project repository"
+            >open-sourced</a
+          >
+          <br/ > ✨
+        </p>
+      </footer>
     </div>
   </body>
 </html>
