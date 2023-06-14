@@ -1,10 +1,42 @@
 :root {
     --branding-color: #75B4B5;
+    --secondary-color: #f0fbfc;
+    --accent-color: #F8B4A7;
     --heading-font-family: "Raleway",
         serif;
     --default-font-family: "Poppins",
         sans-serif;
-    --secondary-color: #f0fbfc;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--branding-color);
 }
 
 body {
@@ -55,8 +87,21 @@ p {
     font-size: 24px;
 } 
 
+.hero a:hover {
+    text-decoration: underline;
+}
+
 .content-container {
     padding: 60px 20px;
+}
+
+.content-container a {
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+}
+
+.content-container a:hover {
+    text-decoration: underline;
 }
 
 .content h1 {
@@ -106,34 +151,12 @@ p {
     padding: 120px 60px;
 }
 
-.logo {
-    max-width: 150px;
+.project-description a:hover {
+    text-decoration: underline;
 }
 
-nav {
-    padding: 20px 0;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    list-style: none;
-    line-height: 42px;
-    margin-left: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #272142;
-    transition: all 100ms ease-in-out;
-}
-
-nav a:hover, nav li.active a {
-    color: var(--branding-color);
+.contact-links a {
+    color: var(--accent-color);
 }
 
 .contact-logo {
